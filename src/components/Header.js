@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/Header.css';
+import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => (
   <div className="header">
