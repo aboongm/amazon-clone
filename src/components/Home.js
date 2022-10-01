@@ -1,13 +1,17 @@
 import React from 'react';
 import '../assets/styles/Home.css';
-import img1 from '../assets/images/blur_livingRoom.jpg';
+// import img1 from '../assets/images/blur_livingRoom.jpg';
 import Product from './Product';
 // import book from '../assets/images/logo.png';
 
 const Home = () => (
   <div className="home">
     <div className="home_container">
-      <img className="home_image" src={img1} alt="hero" />
+      <img
+        className="home_image"
+        src="https://m.media-amazon.com/images/I/71qid7QFWJL._SX3000_.jpg"
+        alt="hero"
+      />
 
       <div className="home_row">
         <Product
